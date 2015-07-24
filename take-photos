@@ -1,0 +1,9 @@
+class Snapchat
+  def initialize(x)
+    for photo in 1..x
+      puts  (photo)
+    end
+  end
+end
+
+yes = Snapchat.new(100) #when you send a parameter here it uses the initialize method of the class
