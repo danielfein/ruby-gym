@@ -1,3 +1,5 @@
+require './math.rb'
+
 class Candidate
   def initialize(party)
     if(party == 1) then
@@ -30,8 +32,14 @@ donald = Candidate.new.name=("Donald Trump").age=("not sure")
       this doesn't work because it is calling age on name
 =end
 
+
 donald = Candidate.new(2)
 donald.name=("Donald Trump")
 donald.age=("68")
+
+math_object = EasyMath.new
+new_age = math_object.multiply(donald.age,2)
+
 puts donald.party,donald.name, donald.age
 puts donald.name+" is a "+donald.age+ " year old "+donald.party
+puts donald.name+"'s age multiplied by 2 is " + new_age.to_s

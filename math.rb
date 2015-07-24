@@ -4,11 +4,11 @@ class EasyMath
   end
 
   def multiply(a,b)
-    return a*b
+    return a.to_i*b
   end
 end
 
-math_instance = EasyMath.new
-
-puts math_instance.addition(1,2)
-puts math_instance.multiply(1,2)
+# math_instance = EasyMath.new
+#
+# puts math_instance.addition(1,2)
+# puts math_instance.multiply(1,2)
