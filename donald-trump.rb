@@ -42,8 +42,8 @@ this doesn't work because it is calling age on name
 donald = Candidate.new(2)
 donald.name("Donald Trump")
 donald.age=("68")
-puts donald.party
-puts donald.age;
+#puts donald.party
+#puts donald.age;
 math_object = EasyMath.new
 new_age = math_object.multiply(donald.age,2)
 
