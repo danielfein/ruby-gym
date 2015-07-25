@@ -14,7 +14,7 @@ son.name = "Tommy"
 son.age = father_time.min
 
 if son.age > daughter.age
-  puts "Son," + son.age.to_s + ", is older than daughter, " + daughter.age.to_s + "."
+  puts "Son,#{ son.age.to_s}, is older than daughter, " + daughter.age.to_s + "."
 else
-  puts "Daughter who is " + daughter.age.to_s + " is older than son who is " + son.age.to_s
+  puts "Daughter who is " + daughter.age.to_s + " is older than son who is #{ son.age.to_s}"
 end
