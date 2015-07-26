@@ -1,1 +1,2 @@
-#Training for Git
+#Training for Ruby
+First attempts to create some working ruby functions, classes, objects...
